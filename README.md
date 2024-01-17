@@ -37,13 +37,11 @@ For a detailed understanding of the data structure, visit the following resource
 
 The following diagrams illustrate the architecture of our data analytics pipeline:
 
-1. **Data Schema/Model Diagram**: Outlines the relational structure of the trip data, showing the dimensional breakdown of key metrics like passenger count, trip distance, rate code, and payment type.
+1. **Architecture Diagram**: Displays the flow of data from raw storage in GCP to processing via Mage ETL, followed by analysis in BigQuery and visualization in Looker.
+<img src="architecture_uber.jpg">
+
+2. **Data Schema/Model Diagram**: Outlines the relational structure of the trip data, showing the dimensional breakdown of key metrics like passenger count, trip distance, rate code, and payment type.
 <img src="data_model_uber.jpeg">
-
-3. **Architecture Diagram**: Displays the flow of data from raw storage in GCP to processing via Mage ETL, followed by analysis in BigQuery and visualization in Looker.
-<img src="architecture_uber.jpeg">
-
-These diagrams guide the understanding of how each component interacts within our data ecosystem, ensuring a smooth and efficient analytical process.
 
 ## Conclusion
 
