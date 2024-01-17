@@ -1,4 +1,4 @@
-# Uber-ETL-pipeline-DE-project
+# Uber-ETL-pipeline-GCP-project
 
 ## Introduction
 
